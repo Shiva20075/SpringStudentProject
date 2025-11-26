@@ -25,5 +25,6 @@ public class StudentService {
 
     public List<Student> getStudents() {
         return Repo.findAll();
+
     }
 }

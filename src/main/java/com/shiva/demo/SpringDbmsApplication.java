@@ -5,8 +5,6 @@ import com.shiva.demo.service.StudentService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @SpringBootApplication
@@ -18,7 +16,7 @@ public class SpringDbmsApplication {
         Student s1 = context.getBean(Student.class);
         s1.setName("shiva");
         s1.setMarks(99);
-        s1.setRollNo(44);
+        s1.setRollNo(0);
 
         StudentService service = context.getBean(StudentService.class);
 
